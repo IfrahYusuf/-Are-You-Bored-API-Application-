@@ -1,0 +1,109 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+body{
+  background-image: url('https://source.unsplash.com/random/?landscape');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  line-height: 50px;
+  }
+  
+  container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 10%;
+  
+  }
+  
+  .style{
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #000000d0;
+  }
+  
+  .response{
+    border-radius: 30px;
+    padding: 15px;
+   
+  }
+  
+  
+  
+  h1{
+  
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 200%;
+  }
+  
+  h3{
+  
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #00000000;
+  }
+  
+  
+  button{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: white solid 5px;
+    border-radius: 30px;
+    padding: 10px;
+    
+    
+  }
+   
+  
+   .refresh{
+     display: none;
+   }
+  
+  
+  .h2{
+    border-bottom: solid white 5px;
+    
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  /* Media query */
+  
+  @media screen and (max-width: 600px) {
+  
+    container {
+      font-size:0.75rem;
+      line-height: 2.5rem;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    
+  
+  
+  }
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
